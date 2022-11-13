@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="weather">
+        <h1>Weather Forecast</h1>
+        <!-- <p>Enter the location</p> -->
+        <form class="location">
+            <label for="city">Enter a location</label>
+            <input type="text" name="city" placeholder="Location">
+        </form>
+        <div class="weather-card display">
+            <img src="https://via.placeholder.com/400x300" alt="" class="don">
+            <div class="weather-icon">
+                <img src="" alt="">
+            </div>
+            <div class="weather-details">
+                <p class="city-name">City Name</p>
+                <p class="weather-condition">Weather Conditions</p>
+                <span class="temp">10</span>
+                <span>&deg;C</span>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/forecast.js"></script>
+</body>
+</html>
